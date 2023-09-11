@@ -1,0 +1,103 @@
+/*
+Tema Adı: Sigorta Theme
+Açıklama: Güçlü ve hafif altyapıya sahip sigortacılık için tasarlanmış responsive bir tema.
+Yazar: Naki Can Akyürek
+
+
+Version: 1.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: kodluyoruzsigorta.sample
+
+Yazar URL:https://github.com/ncanakyurek
+Tema URL:https://github.com/ncanakyurek/kodluyoruz
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Titillium+Web:wght@200&display=swap');
+
+body {
+
+    font-family: Roboto, sans-serif;
+    background-color: #eeeeee;
+
+
+}
+
+header {
+
+    text-align: center;
+    padding: 20px;
+    background: #e5e5e5;
+
+}
+
+
+.navbar ul    {
+ text-align: center;
+
+}
+ .navbar ul li  {
+    list-style-type: none;
+text-decoration: none;
+padding: 10px;
+    display: inline;
+
+
+}
+.navbar ul li a {
+    color: #053B50;
+  text-decoration: none;
+
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+width: 500px;
+}
+.home >  p     {
+   text-align: center;
+}
+
+#container{
+
+    height: 1900px;
+
+
+}
+
+.sss{
+    padding-top:30px;
+
+    width: 640px;
+padding-bottom: 40px;
+}
+
+footer  {
+    text-align: center;
+    background: #176B87;
+    padding: 20px;
+    color: #eee;
+}
+
+#site-desc  {
+
+    color: #64CCC5;
+    text-decoration: none;
+  font-style: italic;
+
+}
+
+#site-title a { color:#176B87;
+    text-decoration:none;
+
+}
+
+.footer-desc{
+
+    font-size: 0.8rem;
+ }
+
+
+
